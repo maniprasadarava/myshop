@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 from shop.models import Product
 
-
+#this git test
 class Cart(object):
     def __init__(self, request):
         self.session = request.session
